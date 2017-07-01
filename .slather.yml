@@ -1,0 +1,11 @@
+ci_service: travis_ci
+coverage_service: coveralls
+workspace: searching-techniques.xcodeworkspace
+xcodeproj: searching-techniques.xcodeproj
+scheme: searching-techniques
+source_directory: searching-techniques/source
+ignore:
+  - searching-techniques/AppDelegate.h
+  - searching-techniques/AppDelegate.m
+  - searching-techniques/ViewController.h
+  - searching-techniques/ViewController.m

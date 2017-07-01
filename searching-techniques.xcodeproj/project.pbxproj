@@ -113,6 +113,7 @@
 		A4861E001F07C7BC00480C05 /* searching-techniques */ = {
 			isa = PBXGroup;
 			children = (
+				A4A47B2C1F07D06800F35347 /* source */,
 				A4861E041F07C7BC00480C05 /* AppDelegate.h */,
 				A4861E051F07C7BC00480C05 /* AppDelegate.m */,
 				A4861E071F07C7BC00480C05 /* ViewController.h */,
@@ -141,6 +142,13 @@
 				A4861E1D1F07C7BC00480C05 /* Info.plist */,
 			);
 			path = "searching-techniquesTests";
+			sourceTree = "<group>";
+		};
+		A4A47B2C1F07D06800F35347 /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,6 +557,7 @@
 				A4861E221F07C7BC00480C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4861E231F07C7BC00480C05 /* Build configuration list for PBXNativeTarget "searching-techniquesTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +566,7 @@
 				A4861E251F07C7BC00480C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,0 @@
-framework module Pods_searching_techniquesTests {
-  umbrella header "Pods-searching-techniquesTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

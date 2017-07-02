@@ -5,10 +5,10 @@ def testing_pods
     pod 'Nimble'
 end
 
-target 'searching-techniques' do
+target 'SearchingTechniques' do
   use_frameworks!
 
-  target 'searching-techniquesTests' do
+  target 'SearchingTechniquesTests' do
     inherit! :search_paths
     testing_pods
   end

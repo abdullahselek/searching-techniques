@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		195125B86CC19E48CBD9FCC1 /* Pods_searching_techniquesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91724B517D496A91D932D4AC /* Pods_searching_techniquesTests.framework */; };
 		34FB429E50F8EB68818153C2 /* Pods_searching_techniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA03D07B979249D0F67F600E /* Pods_searching_techniques.framework */; };
+		A485CE2E1F09104100AA9E67 /* STLinearSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A485CE2D1F09104100AA9E67 /* STLinearSearch.m */; };
+		A485CE301F0911AC00AA9E67 /* STLinearSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A485CE2F1F0911AC00AA9E67 /* STLinearSearchTests.m */; };
 		A4861E031F07C7BC00480C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4861E021F07C7BC00480C05 /* main.m */; };
 		A4861E061F07C7BC00480C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4861E051F07C7BC00480C05 /* AppDelegate.m */; };
 		A4861E091F07C7BC00480C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4861E081F07C7BC00480C05 /* ViewController.m */; };
@@ -33,6 +35,9 @@
 		3EBD4EBB2F8DA0BB2193E3FE /* Pods-searching-techniquesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searching-techniquesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-searching-techniquesTests/Pods-searching-techniquesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73AB8639317BC87F1FEBAA5B /* Pods-searching-techniquesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searching-techniquesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-searching-techniquesTests/Pods-searching-techniquesTests.release.xcconfig"; sourceTree = "<group>"; };
 		91724B517D496A91D932D4AC /* Pods_searching_techniquesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searching_techniquesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A485CE2C1F09104100AA9E67 /* STLinearSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLinearSearch.h; path = source/STLinearSearch.h; sourceTree = "<group>"; };
+		A485CE2D1F09104100AA9E67 /* STLinearSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STLinearSearch.m; path = source/STLinearSearch.m; sourceTree = "<group>"; };
+		A485CE2F1F0911AC00AA9E67 /* STLinearSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLinearSearchTests.m; sourceTree = "<group>"; };
 		A4861DFE1F07C7BC00480C05 /* searching-techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "searching-techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4861E021F07C7BC00480C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4861E041F07C7BC00480C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 			children = (
 				A4861E1B1F07C7BC00480C05 /* searching_techniquesTests.m */,
 				A4861E1D1F07C7BC00480C05 /* Info.plist */,
+				A485CE2F1F0911AC00AA9E67 /* STLinearSearchTests.m */,
 			);
 			path = "searching-techniquesTests";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 		A4A47B2C1F07D06800F35347 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				A485CE2C1F09104100AA9E67 /* STLinearSearch.h */,
+				A485CE2D1F09104100AA9E67 /* STLinearSearch.m */,
 			);
 			name = source;
 			sourceTree = "<group>";
@@ -355,6 +363,7 @@
 				A4861E091F07C7BC00480C05 /* ViewController.m in Sources */,
 				A4861E061F07C7BC00480C05 /* AppDelegate.m in Sources */,
 				A4861E031F07C7BC00480C05 /* main.m in Sources */,
+				A485CE2E1F09104100AA9E67 /* STLinearSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4861E1C1F07C7BC00480C05 /* searching_techniquesTests.m in Sources */,
+				A485CE301F0911AC00AA9E67 /* STLinearSearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,8 +28,26 @@
     self.dataSet = [self.dataSet sortedArrayUsingDescriptors:@[sortDescriptor]];
 }
 
-- (id)search:(id)object {
-    return nil;
+- (int)search:(id)object {
+    NSUInteger high = [self.dataSet count];
+    int low = 1;
+    while (true) {
+        if (high < low) {
+            return 0;
+        }
+
+        int mid = low + ((int) high - low) / 2;
+        if (self.dataSet[mid] < object) {
+            low = mid + 1;
+        }
+        if (self.dataSet[mid] > object) {
+            high = mid - 1;
+        }
+        if (self.dataSet[mid] == object) {
+            return mid;
+        }
+    }
+    return 0;
 }
 
 @end

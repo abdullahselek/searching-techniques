@@ -42,6 +42,22 @@ describe(@"STBinarySearchTests", ^{
             expect(binarySearch.dataSet[7]).to(equal(@10));
         });
     });
+    context(@".search:", ^{
+        __block STBinarySearch *binary;
+        beforeEach(^{
+            binary = [[STBinarySearch alloc] init];
+        });
+        it(@"when data set is empty should return zero", ^{
+            int result = [binary search:@4];
+            expect(result).to(equal(0));
+        });
+    });
+    context(@".search:", ^{
+        it(@"when there is no matching one should return zero", ^{
+            int result = [binarySearch search:@1];
+            expect(result).to(equal(0));
+        });
+    });
 });
 
 QuickSpecEnd

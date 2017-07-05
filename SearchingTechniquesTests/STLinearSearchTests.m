@@ -7,7 +7,7 @@
 //
 
 #import "STLinearSearch.h"
-@import Quick;
+#import <Quick/Quick.h>
 @import Nimble;
 
 QuickSpecBegin(STLinearSearchTests)

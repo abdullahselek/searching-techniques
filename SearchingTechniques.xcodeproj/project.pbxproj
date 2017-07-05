@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4AF0ACCD0B5E8AE2E27ABC7B /* Pods_SearchingTechniquesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCA39DEC8465A1D733E0FDC /* Pods_SearchingTechniquesTests.framework */; };
 		8ADD613C5C909D8B239200F9 /* Pods_SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F5B08BFED266EEE74DFA6 /* Pods_SearchingTechniques.framework */; };
+		A446D2D01F0D552C001BA0F1 /* STBinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A446D2CE1F0D552C001BA0F1 /* STBinarySearch.h */; };
+		A446D2D11F0D552C001BA0F1 /* STBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A446D2CF1F0D552C001BA0F1 /* STBinarySearch.m */; };
+		A446D2D31F0D5634001BA0F1 /* STBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A446D2D21F0D5634001BA0F1 /* STBinarySearchTests.m */; };
 		A485CE8D1F09352800AA9E67 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A485CE831F09352800AA9E67 /* SearchingTechniques.framework */; };
 		A485CE941F09352800AA9E67 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A485CE861F09352800AA9E67 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A485CE9F1F09359F00AA9E67 /* STLinearSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A485CE9D1F09359F00AA9E67 /* STLinearSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +34,9 @@
 		193D3EC4027670A25D424A80 /* Pods-SearchingTechniques.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques/Pods-SearchingTechniques.debug.xcconfig"; sourceTree = "<group>"; };
 		788F5B08BFED266EEE74DFA6 /* Pods_SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA39DEC8465A1D733E0FDC /* Pods_SearchingTechniquesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniquesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A446D2CE1F0D552C001BA0F1 /* STBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBinarySearch.h; sourceTree = "<group>"; };
+		A446D2CF1F0D552C001BA0F1 /* STBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBinarySearch.m; sourceTree = "<group>"; };
+		A446D2D21F0D5634001BA0F1 /* STBinarySearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBinarySearchTests.m; sourceTree = "<group>"; };
 		A485CE831F09352800AA9E67 /* SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A485CE861F09352800AA9E67 /* SearchingTechniques.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchingTechniques.h; sourceTree = "<group>"; };
 		A485CE871F09352800AA9E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,9 +113,11 @@
 		A485CE851F09352800AA9E67 /* SearchingTechniques */ = {
 			isa = PBXGroup;
 			children = (
+				A485CE861F09352800AA9E67 /* SearchingTechniques.h */,
 				A485CE9D1F09359F00AA9E67 /* STLinearSearch.h */,
 				A485CE9E1F09359F00AA9E67 /* STLinearSearch.m */,
-				A485CE861F09352800AA9E67 /* SearchingTechniques.h */,
+				A446D2CE1F0D552C001BA0F1 /* STBinarySearch.h */,
+				A446D2CF1F0D552C001BA0F1 /* STBinarySearch.m */,
 				A485CE871F09352800AA9E67 /* Info.plist */,
 			);
 			path = SearchingTechniques;
@@ -119,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A485CEA11F0935A700AA9E67 /* STLinearSearchTests.m */,
+				A446D2D21F0D5634001BA0F1 /* STBinarySearchTests.m */,
 				A485CE931F09352800AA9E67 /* Info.plist */,
 			);
 			path = SearchingTechniquesTests;
@@ -133,6 +142,7 @@
 			files = (
 				A485CE9F1F09359F00AA9E67 /* STLinearSearch.h in Headers */,
 				A485CE941F09352800AA9E67 /* SearchingTechniques.h in Headers */,
+				A446D2D01F0D552C001BA0F1 /* STBinarySearch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A485CEA01F09359F00AA9E67 /* STLinearSearch.m in Sources */,
+				A446D2D11F0D552C001BA0F1 /* STBinarySearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A485CEA21F0935A700AA9E67 /* STLinearSearchTests.m in Sources */,
+				A446D2D31F0D5634001BA0F1 /* STBinarySearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,6 +58,12 @@ describe(@"STBinarySearchTests", ^{
             expect(result).to(equal(0));
         });
     });
+    context(@".search:", ^{
+        it(@"when there is matching one should return index", ^{
+            int result = [binarySearch search:@5];
+            expect(result).to(equal(2));
+        });
+    });
 });
 
 QuickSpecEnd

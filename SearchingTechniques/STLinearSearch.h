@@ -11,6 +11,6 @@
 @interface STLinearSearch : NSObject
 
 - (instancetype)initWithDataSet:(NSArray *)dataSet;
-- (id)search:(id)object;
+- (int)search:(id)object;
 
 @end

@@ -23,20 +23,21 @@
     return self;
 }
 
-- (id)search:(id)object {
+- (int)search:(id)object {
     if (!self.dataSet) {
-        return nil;
+        return 0;
     }
-    for (id obj in self.dataSet) {
+    for (int i = 0; i < [self.dataSet count]; i++) {
+        id obj = self.dataSet[i];
         if (obj == object) {
-            return obj;
+            return i;
         } else if ([obj isEqual:object]) {
-            return obj;
+            return i;
         } else if ([object isKindOfClass:[NSString class]] && [obj isEqualToString:object]) {
-            return obj;
+            return i;
         }
     }
-    return nil;
+    return 0;
 }
 
 @end

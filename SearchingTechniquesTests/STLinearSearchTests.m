@@ -27,21 +27,21 @@ describe(@"STLinearSearchTests", ^{
         beforeEach(^{
             linear = [[STLinearSearch alloc] init];
         });
-        it(@"when data set is empty should return nil", ^{
-            id result = [linear search:@"4"];
-            expect(result).to(beNil());
+        it(@"when data set is empty should return zero", ^{
+            int result = [linear search:@"4"];
+            expect(result).to(equal(0));
         });
     });
     context(@".search:", ^{
-        it(@"when there is no matching one should return nil", ^{
-            id result = [linearSearch search:@"4"];
-            expect(result).to(beNil());
+        it(@"when there is no matching one should return zero", ^{
+            int result = [linearSearch search:@"4"];
+            expect(result).to(equal(0));
         });
     });
     context(@".search:", ^{
         it(@"when there is matching one should return that value", ^{
-            id result = [linearSearch search:@"3"];
-            expect(result).to(equal(@"3"));
+            int result = [linearSearch search:@"3"];
+            expect(result).to(equal(2));
         });
     });
 });

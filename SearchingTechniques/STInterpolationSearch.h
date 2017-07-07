@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface STInterpolationSearch : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithDataSet:(NSArray *)dataSet;
+- (int)search:(int)x;
 
 @end
+
+NS_ASSUME_NONNULL_END

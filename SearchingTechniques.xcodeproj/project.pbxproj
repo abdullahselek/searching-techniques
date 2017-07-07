@@ -17,6 +17,9 @@
 		A485CE9F1F09359F00AA9E67 /* STLinearSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A485CE9D1F09359F00AA9E67 /* STLinearSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A485CEA01F09359F00AA9E67 /* STLinearSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A485CE9E1F09359F00AA9E67 /* STLinearSearch.m */; };
 		A485CEA21F0935A700AA9E67 /* STLinearSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A485CEA11F0935A700AA9E67 /* STLinearSearchTests.m */; };
+		A4D01FAF1F1027EB00A726D4 /* STInterpolationSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D01FAD1F1027EB00A726D4 /* STInterpolationSearch.h */; };
+		A4D01FB01F1027EB00A726D4 /* STInterpolationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D01FAE1F1027EB00A726D4 /* STInterpolationSearch.m */; };
+		A4D01FB21F10288800A726D4 /* STInterpolationSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D01FB11F10288800A726D4 /* STInterpolationSearchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		A485CE9D1F09359F00AA9E67 /* STLinearSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLinearSearch.h; sourceTree = "<group>"; };
 		A485CE9E1F09359F00AA9E67 /* STLinearSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLinearSearch.m; sourceTree = "<group>"; };
 		A485CEA11F0935A700AA9E67 /* STLinearSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLinearSearchTests.m; sourceTree = "<group>"; };
+		A4D01FAD1F1027EB00A726D4 /* STInterpolationSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STInterpolationSearch.h; sourceTree = "<group>"; };
+		A4D01FAE1F1027EB00A726D4 /* STInterpolationSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STInterpolationSearch.m; sourceTree = "<group>"; };
+		A4D01FB11F10288800A726D4 /* STInterpolationSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STInterpolationSearchTests.m; sourceTree = "<group>"; };
 		ABB422B62D88739CD3071C75 /* Pods-SearchingTechniquesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniquesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniquesTests/Pods-SearchingTechniquesTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF98847DBA46048E2A8F613 /* Pods-SearchingTechniques.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques/Pods-SearchingTechniques.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +124,8 @@
 				A485CE9E1F09359F00AA9E67 /* STLinearSearch.m */,
 				A446D2CE1F0D552C001BA0F1 /* STBinarySearch.h */,
 				A446D2CF1F0D552C001BA0F1 /* STBinarySearch.m */,
+				A4D01FAD1F1027EB00A726D4 /* STInterpolationSearch.h */,
+				A4D01FAE1F1027EB00A726D4 /* STInterpolationSearch.m */,
 				A485CE871F09352800AA9E67 /* Info.plist */,
 			);
 			path = SearchingTechniques;
@@ -128,6 +136,7 @@
 			children = (
 				A485CEA11F0935A700AA9E67 /* STLinearSearchTests.m */,
 				A446D2D21F0D5634001BA0F1 /* STBinarySearchTests.m */,
+				A4D01FB11F10288800A726D4 /* STInterpolationSearchTests.m */,
 				A485CE931F09352800AA9E67 /* Info.plist */,
 			);
 			path = SearchingTechniquesTests;
@@ -142,6 +151,7 @@
 			files = (
 				A485CE9F1F09359F00AA9E67 /* STLinearSearch.h in Headers */,
 				A485CE941F09352800AA9E67 /* SearchingTechniques.h in Headers */,
+				A4D01FAF1F1027EB00A726D4 /* STInterpolationSearch.h in Headers */,
 				A446D2D01F0D552C001BA0F1 /* STBinarySearch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A485CEA01F09359F00AA9E67 /* STLinearSearch.m in Sources */,
+				A4D01FB01F1027EB00A726D4 /* STInterpolationSearch.m in Sources */,
 				A446D2D11F0D552C001BA0F1 /* STBinarySearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A485CEA21F0935A700AA9E67 /* STLinearSearchTests.m in Sources */,
+				A4D01FB21F10288800A726D4 /* STInterpolationSearchTests.m in Sources */,
 				A446D2D31F0D5634001BA0F1 /* STBinarySearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

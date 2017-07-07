@@ -10,6 +10,7 @@
 
 @interface STBinarySearch : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithDataSet:(NSArray *)dataSet;
 - (int)search:(id)object;
 

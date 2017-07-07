@@ -23,16 +23,6 @@ describe(@"STLinearSearchTests", ^{
         });
     });
     context(@".search:", ^{
-        __block STLinearSearch *linear;
-        beforeEach(^{
-            linear = [[STLinearSearch alloc] init];
-        });
-        it(@"when data set is empty should return zero", ^{
-            int result = [linear search:@"4"];
-            expect(result).to(equal(0));
-        });
-    });
-    context(@".search:", ^{
         it(@"when there is no matching one should return zero", ^{
             int result = [linearSearch search:@"4"];
             expect(result).to(equal(0));

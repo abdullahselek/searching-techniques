@@ -29,6 +29,7 @@
 }
 
 - (int)search:(id)object {
+    [self sortDataSet];
     NSUInteger high = [self.dataSet count];
     int low = 1;
     while (true) {

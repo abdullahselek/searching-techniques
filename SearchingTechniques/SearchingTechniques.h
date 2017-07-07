@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char SearchingTechniquesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SearchingTechniques/PublicHeader.h>
 #import <SearchingTechniques/STLinearSearch.h>
-
+#import <SearchingTechniques/STBinarySearch.h>
+#import <SearchingTechniques/STInterpolationSearch.h>

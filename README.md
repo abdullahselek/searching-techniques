@@ -18,3 +18,10 @@ int index = [linearSearch search:@"2"];
 STBinarySearch *binarySearch = [[STBinarySearch alloc] initWithDataSet:@[@10, @8, @3, @4, @5, @6, @9, @7];
 int index = [binarySearch search:@5];
 ```
+
+## Interpolation Search
+
+```
+STInterpolationSearch *interpolationSearch = [[STInterpolationSearch alloc] initWithDataSet:@[@10, @8, @3, @4, @5, @6, @9, @7]];
+int index = [interpolationSearch search:5];
+```

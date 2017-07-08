@@ -10,16 +10,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A485CE8B1F09352800AA9E67"
-               BuildableName = "SearchingTechniquesTests.xctest"
-               BlueprintName = "SearchingTechniquesTests"
+               BlueprintIdentifier = "A4C692AE1F1149520018F4B9"
+               BuildableName = "SearchingTechniques-iOSTests.xctest"
+               BlueprintName = "SearchingTechniques-iOSTests"
                ReferencedContainer = "container:SearchingTechniques.xcodeproj">
             </BuildableReference>
          </TestableReference>

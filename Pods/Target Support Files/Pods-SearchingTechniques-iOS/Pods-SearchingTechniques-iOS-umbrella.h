@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SearchingTechniquesTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SearchingTechniquesTestsVersionString[];
+FOUNDATION_EXPORT double Pods_SearchingTechniques_iOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SearchingTechniques_iOSVersionString[];
 

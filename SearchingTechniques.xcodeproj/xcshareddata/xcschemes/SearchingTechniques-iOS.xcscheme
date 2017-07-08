@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A485CE821F09352800AA9E67"
-               BuildableName = "SearchingTechniques.framework"
-               BlueprintName = "SearchingTechniques"
+               BlueprintIdentifier = "A4C692A61F1149520018F4B9"
+               BuildableName = "SearchingTecniques.framework"
+               BlueprintName = "SearchingTechniques-iOS"
                ReferencedContainer = "container:SearchingTechniques.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A485CE8B1F09352800AA9E67"
-               BuildableName = "SearchingTechniquesTests.xctest"
-               BlueprintName = "SearchingTechniquesTests"
+               BlueprintIdentifier = "A4C692AE1F1149520018F4B9"
+               BuildableName = "SearchingTechniques-iOSTests.xctest"
+               BlueprintName = "SearchingTechniques-iOSTests"
                ReferencedContainer = "container:SearchingTechniques.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A485CE821F09352800AA9E67"
-            BuildableName = "SearchingTechniques.framework"
-            BlueprintName = "SearchingTechniques"
+            BlueprintIdentifier = "A4C692A61F1149520018F4B9"
+            BuildableName = "SearchingTecniques.framework"
+            BlueprintName = "SearchingTechniques-iOS"
             ReferencedContainer = "container:SearchingTechniques.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A485CE821F09352800AA9E67"
-            BuildableName = "SearchingTechniques.framework"
-            BlueprintName = "SearchingTechniques"
+            BlueprintIdentifier = "A4C692A61F1149520018F4B9"
+            BuildableName = "SearchingTecniques.framework"
+            BlueprintName = "SearchingTechniques-iOS"
             ReferencedContainer = "container:SearchingTechniques.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A485CE821F09352800AA9E67"
-            BuildableName = "SearchingTechniques.framework"
-            BlueprintName = "SearchingTechniques"
+            BlueprintIdentifier = "A4C692A61F1149520018F4B9"
+            BuildableName = "SearchingTecniques.framework"
+            BlueprintName = "SearchingTechniques-iOS"
             ReferencedContainer = "container:SearchingTechniques.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,6 +1,0 @@
-framework module Pods_SearchingTechniques {
-  umbrella header "Pods-SearchingTechniques-umbrella.h"
-
-  export *
-  module * { export * }
-}

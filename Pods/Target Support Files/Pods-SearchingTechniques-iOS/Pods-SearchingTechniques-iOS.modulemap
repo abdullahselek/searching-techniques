@@ -1,0 +1,6 @@
+framework module Pods_SearchingTechniques_iOS {
+  umbrella header "Pods-SearchingTechniques-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

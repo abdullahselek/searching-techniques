@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4122A9D22EF6B0EEAF56F5F8 /* Pods_SearchingTechniques_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */; };
+		4539C1F784849A224AE72238 /* Pods_SearchingTechniques_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */; };
 		54C67A098EC3AB3415C4C91C /* Pods_SearchingTechniques_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */; };
-		A4C692B01F1149520018F4B9 /* SearchingTecniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692A71F1149520018F4B9 /* SearchingTecniques.framework */; };
+		A3CC4A9F3013F75A862FA226 /* Pods_SearchingTechniques_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */; };
+		A4C692B01F1149520018F4B9 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */; };
 		A4C692B71F1149520018F4B9 /* SearchingTecniques-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A91F1149520018F4B9 /* SearchingTecniques-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4C692C61F114A380018F4B9 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4C692C51F114A380018F4B9 /* Info-iOS.plist */; };
 		A4C692CE1F114AF70018F4B9 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692CF1F114AF70018F4B9 /* STBinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929C1F1149290018F4B9 /* STBinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692D01F114AF70018F4B9 /* STInterpolationSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929E1F1149290018F4B9 /* STInterpolationSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +23,18 @@
 		A4C692D71F114D040018F4B9 /* STBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929D1F1149290018F4B9 /* STBinarySearch.m */; };
 		A4C692D81F114D040018F4B9 /* STInterpolationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929F1F1149290018F4B9 /* STInterpolationSearch.m */; };
 		A4C692D91F114D040018F4B9 /* STLinearSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692A11F1149290018F4B9 /* STLinearSearch.m */; };
+		A4C692E81F1160570018F4B9 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */; };
+		A4C692EF1F1160570018F4B9 /* SearchingTechniques-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692E11F1160570018F4B9 /* SearchingTechniques-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C692F61F11607D0018F4B9 /* STBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929D1F1149290018F4B9 /* STBinarySearch.m */; };
+		A4C692F71F11607D0018F4B9 /* STInterpolationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929F1F1149290018F4B9 /* STInterpolationSearch.m */; };
+		A4C692F81F11607D0018F4B9 /* STLinearSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692A11F1149290018F4B9 /* STLinearSearch.m */; };
+		A4C692F91F11608F0018F4B9 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C692FA1F11608F0018F4B9 /* STBinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929C1F1149290018F4B9 /* STBinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C692FB1F11608F0018F4B9 /* STInterpolationSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929E1F1149290018F4B9 /* STInterpolationSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C692FC1F11608F0018F4B9 /* STLinearSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A01F1149290018F4B9 /* STLinearSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C692FF1F1161790018F4B9 /* STBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C81F114AB50018F4B9 /* STBinarySearchTests.m */; };
+		A4C693001F1161790018F4B9 /* STInterpolationSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C91F114AB50018F4B9 /* STInterpolationSearchTests.m */; };
+		A4C693011F1161790018F4B9 /* STLinearSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692CA1F114AB50018F4B9 /* STLinearSearchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +45,22 @@
 			remoteGlobalIDString = A4C692A61F1149520018F4B9;
 			remoteInfo = "SearchingTecniques-iOS";
 		};
+		A4C692E91F1160570018F4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A485CE7A1F09352700AA9E67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C692DE1F1160570018F4B9;
+			remoteInfo = "SearchingTechniques-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008957DFD72E8ED388214E7E /* Pods-SearchingTechniquesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniquesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniquesTests/Pods-SearchingTechniquesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		193D3EC4027670A25D424A80 /* Pods-SearchingTechniques.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques/Pods-SearchingTechniques.debug.xcconfig"; sourceTree = "<group>"; };
+		245327840A02774B84439082 /* Pods-SearchingTechniques-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOS/Pods-SearchingTechniques-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A97D40EDCA78FC523BDB34E /* Pods-SearchingTechniques-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOS/Pods-SearchingTechniques-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5FB4A51C35351E3F2B104876 /* Pods-SearchingTechniques-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOSTests/Pods-SearchingTechniques-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		702D61BFA50317EA8F66F52B /* Pods-SearchingTechniques-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOS/Pods-SearchingTechniques-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		788F5B08BFED266EEE74DFA6 /* Pods_SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +72,7 @@
 		A4C6929F1F1149290018F4B9 /* STInterpolationSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = STInterpolationSearch.m; path = Source/STInterpolationSearch.m; sourceTree = "<group>"; };
 		A4C692A01F1149290018F4B9 /* STLinearSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STLinearSearch.h; path = Source/STLinearSearch.h; sourceTree = "<group>"; };
 		A4C692A11F1149290018F4B9 /* STLinearSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = STLinearSearch.m; path = Source/STLinearSearch.m; sourceTree = "<group>"; };
-		A4C692A71F1149520018F4B9 /* SearchingTecniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchingTecniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C692A91F1149520018F4B9 /* SearchingTecniques-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingTecniques-iOS.h"; sourceTree = "<group>"; };
 		A4C692AF1F1149520018F4B9 /* SearchingTechniques-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingTechniques-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C692B61F1149520018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,10 +80,18 @@
 		A4C692C81F114AB50018F4B9 /* STBinarySearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STBinarySearchTests.m; path = Test/STBinarySearchTests.m; sourceTree = "<group>"; };
 		A4C692C91F114AB50018F4B9 /* STInterpolationSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STInterpolationSearchTests.m; path = Test/STInterpolationSearchTests.m; sourceTree = "<group>"; };
 		A4C692CA1F114AB50018F4B9 /* STLinearSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STLinearSearchTests.m; path = Test/STLinearSearchTests.m; sourceTree = "<group>"; };
+		A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C692E11F1160570018F4B9 /* SearchingTechniques-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingTechniques-macOS.h"; sourceTree = "<group>"; };
+		A4C692E71F1160570018F4B9 /* SearchingTechniques-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingTechniques-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C692EE1F1160570018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C692FD1F1161490018F4B9 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Source/Info-macOS.plist"; sourceTree = "<group>"; };
 		ABB422B62D88739CD3071C75 /* Pods-SearchingTechniquesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniquesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniquesTests/Pods-SearchingTechniquesTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF98847DBA46048E2A8F613 /* Pods-SearchingTechniques.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques/Pods-SearchingTechniques.release.xcconfig"; sourceTree = "<group>"; };
 		C0F96E4A1504CB91FC89AC99 /* Pods-SearchingTechniques-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOSTests/Pods-SearchingTechniques-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1EF09263DC22FA572AC53E4 /* Pods-SearchingTechniques-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOS/Pods-SearchingTechniques-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,8 +108,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C692B01F1149520018F4B9 /* SearchingTecniques.framework in Frameworks */,
+				A4C692B01F1149520018F4B9 /* SearchingTechniques.framework in Frameworks */,
 				4122A9D22EF6B0EEAF56F5F8 /* Pods_SearchingTechniques_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C692DB1F1160570018F4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4539C1F784849A224AE72238 /* Pods_SearchingTechniques_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C692E41F1160570018F4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C692E81F1160570018F4B9 /* SearchingTechniques.framework in Frameworks */,
+				A3CC4A9F3013F75A862FA226 /* Pods_SearchingTechniques_macOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +140,8 @@
 				7CCA39DEC8465A1D733E0FDC /* Pods_SearchingTechniquesTests.framework */,
 				3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */,
 				F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */,
+				2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */,
+				EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +157,10 @@
 				702D61BFA50317EA8F66F52B /* Pods-SearchingTechniques-iOS.release.xcconfig */,
 				C0F96E4A1504CB91FC89AC99 /* Pods-SearchingTechniques-iOSTests.debug.xcconfig */,
 				5FB4A51C35351E3F2B104876 /* Pods-SearchingTechniques-iOSTests.release.xcconfig */,
+				4A97D40EDCA78FC523BDB34E /* Pods-SearchingTechniques-macOS.debug.xcconfig */,
+				245327840A02774B84439082 /* Pods-SearchingTechniques-macOS.release.xcconfig */,
+				C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */,
+				F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -118,6 +172,8 @@
 				A4C692C71F114AA80018F4B9 /* Test */,
 				A4C692A81F1149520018F4B9 /* SearchingTecniques-iOS */,
 				A4C692B31F1149520018F4B9 /* SearchingTecniques-iOSTests */,
+				A4C692E01F1160570018F4B9 /* SearchingTechniques-macOS */,
+				A4C692EB1F1160570018F4B9 /* SearchingTechniques-macOSTests */,
 				A485CE841F09352800AA9E67 /* Products */,
 				87C486EB6EDFB3F480DFE428 /* Pods */,
 				21842E3C7815553073906560 /* Frameworks */,
@@ -127,8 +183,10 @@
 		A485CE841F09352800AA9E67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4C692A71F1149520018F4B9 /* SearchingTecniques.framework */,
+				A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */,
 				A4C692AF1F1149520018F4B9 /* SearchingTechniques-iOSTests.xctest */,
+				A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */,
+				A4C692E71F1160570018F4B9 /* SearchingTechniques-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +194,7 @@
 		A4C6929A1F1149090018F4B9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A4C692FD1F1161490018F4B9 /* Info-macOS.plist */,
 				A4C692C51F114A380018F4B9 /* Info-iOS.plist */,
 				A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */,
 				A4C6929C1F1149290018F4B9 /* STBinarySearch.h */,
@@ -174,6 +233,22 @@
 			name = Test;
 			sourceTree = "<group>";
 		};
+		A4C692E01F1160570018F4B9 /* SearchingTechniques-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4C692E11F1160570018F4B9 /* SearchingTechniques-macOS.h */,
+			);
+			path = "SearchingTechniques-macOS";
+			sourceTree = "<group>";
+		};
+		A4C692EB1F1160570018F4B9 /* SearchingTechniques-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C692EE1F1160570018F4B9 /* Info.plist */,
+			);
+			path = "SearchingTechniques-macOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -186,6 +261,18 @@
 				A4C692D01F114AF70018F4B9 /* STInterpolationSearch.h in Headers */,
 				A4C692D11F114AF70018F4B9 /* STLinearSearch.h in Headers */,
 				A4C692B71F1149520018F4B9 /* SearchingTecniques-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C692DC1F1160570018F4B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C692F91F11608F0018F4B9 /* SearchingTechniques.h in Headers */,
+				A4C692FA1F11608F0018F4B9 /* STBinarySearch.h in Headers */,
+				A4C692FB1F11608F0018F4B9 /* STInterpolationSearch.h in Headers */,
+				A4C692FC1F11608F0018F4B9 /* STLinearSearch.h in Headers */,
+				A4C692EF1F1160570018F4B9 /* SearchingTechniques-macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +296,7 @@
 			);
 			name = "SearchingTechniques-iOS";
 			productName = "SearchingTecniques-iOS";
-			productReference = A4C692A71F1149520018F4B9 /* SearchingTecniques.framework */;
+			productReference = A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A4C692AE1F1149520018F4B9 /* SearchingTechniques-iOSTests */ = {
@@ -233,6 +320,47 @@
 			productReference = A4C692AF1F1149520018F4B9 /* SearchingTechniques-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A4C692DE1F1160570018F4B9 /* SearchingTechniques-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C692F01F1160570018F4B9 /* Build configuration list for PBXNativeTarget "SearchingTechniques-macOS" */;
+			buildPhases = (
+				40650CFECA995CEB43FA791E /* [CP] Check Pods Manifest.lock */,
+				A4C692DA1F1160570018F4B9 /* Sources */,
+				A4C692DB1F1160570018F4B9 /* Frameworks */,
+				A4C692DC1F1160570018F4B9 /* Headers */,
+				A4C692DD1F1160570018F4B9 /* Resources */,
+				A5C7EA25480CCDC7C6E0A93C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchingTechniques-macOS";
+			productName = "SearchingTechniques-macOS";
+			productReference = A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4C692E61F1160570018F4B9 /* SearchingTechniques-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C692F31F1160570018F4B9 /* Build configuration list for PBXNativeTarget "SearchingTechniques-macOSTests" */;
+			buildPhases = (
+				E45C75D6A28742DA2491AA5A /* [CP] Check Pods Manifest.lock */,
+				A4C692E31F1160570018F4B9 /* Sources */,
+				A4C692E41F1160570018F4B9 /* Frameworks */,
+				A4C692E51F1160570018F4B9 /* Resources */,
+				51C5EB065DEC15FDA69773AC /* [CP] Embed Pods Frameworks */,
+				78C9353707317E486B9570EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C692EA1F1160570018F4B9 /* PBXTargetDependency */,
+			);
+			name = "SearchingTechniques-macOSTests";
+			productName = "SearchingTechniques-macOSTests";
+			productReference = A4C692E71F1160570018F4B9 /* SearchingTechniques-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,6 +375,14 @@
 						ProvisioningStyle = Automatic;
 					};
 					A4C692AE1F1149520018F4B9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A4C692DE1F1160570018F4B9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A4C692E61F1160570018F4B9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -266,6 +402,8 @@
 			targets = (
 				A4C692A61F1149520018F4B9 /* SearchingTechniques-iOS */,
 				A4C692AE1F1149520018F4B9 /* SearchingTechniques-iOSTests */,
+				A4C692DE1F1160570018F4B9 /* SearchingTechniques-macOS */,
+				A4C692E61F1160570018F4B9 /* SearchingTechniques-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +413,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C692C61F114A380018F4B9 /* Info-iOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +423,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4C692DD1F1160570018F4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C692E51F1160570018F4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		40650CFECA995CEB43FA791E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		50D221C7E251C2B638D1F33A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +468,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-iOSTests/Pods-SearchingTechniques-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C5EB065DEC15FDA69773AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C9353707317E486B9570EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		891482CCCA3D34BE4DC52EF1 /* [CP] Embed Pods Frameworks */ = {
@@ -334,6 +530,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		A5C7EA25480CCDC7C6E0A93C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-macOS/Pods-SearchingTechniques-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D7820AD5459DD3C594021B22 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +561,21 @@
 			showEnvVarsInLog = 0;
 		};
 		DC650BA97D4786B4621DF7D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45C75D6A28742DA2491AA5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,6 +613,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4C692DA1F1160570018F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C692F61F11607D0018F4B9 /* STBinarySearch.m in Sources */,
+				A4C692F71F11607D0018F4B9 /* STInterpolationSearch.m in Sources */,
+				A4C692F81F11607D0018F4B9 /* STLinearSearch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C692E31F1160570018F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C692FF1F1161790018F4B9 /* STBinarySearchTests.m in Sources */,
+				A4C693001F1161790018F4B9 /* STInterpolationSearchTests.m in Sources */,
+				A4C693011F1161790018F4B9 /* STLinearSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -394,6 +640,11 @@
 			isa = PBXTargetDependency;
 			target = A4C692A61F1149520018F4B9 /* SearchingTechniques-iOS */;
 			targetProxy = A4C692B11F1149520018F4B9 /* PBXContainerItemProxy */;
+		};
+		A4C692EA1F1160570018F4B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C692DE1F1160570018F4B9 /* SearchingTechniques-macOS */;
+			targetProxy = A4C692E91F1160570018F4B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,6 +695,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SearchingTechniques;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -490,6 +742,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SearchingTechniques;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -512,7 +765,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTecniques-iOS";
-				PRODUCT_NAME = SearchingTecniques;
+				PRODUCT_NAME = SearchingTechniques;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -531,7 +784,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTecniques-iOS";
-				PRODUCT_NAME = SearchingTecniques;
+				PRODUCT_NAME = SearchingTechniques;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -557,6 +810,80 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTecniques-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4C692F11F1160570018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A97D40EDCA78FC523BDB34E /* Pods-SearchingTechniques-macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Source/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-macOS";
+				PRODUCT_NAME = SearchingTechniques;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4C692F21F1160570018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245327840A02774B84439082 /* Pods-SearchingTechniques-macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Source/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-macOS";
+				PRODUCT_NAME = SearchingTechniques;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4C692F41F1160570018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SearchingTechniques-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4C692F51F1160570018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SearchingTechniques-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -586,6 +913,24 @@
 			buildConfigurations = (
 				A4C692BC1F1149520018F4B9 /* Debug */,
 				A4C692BD1F1149520018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C692F01F1160570018F4B9 /* Build configuration list for PBXNativeTarget "SearchingTechniques-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C692F11F1160570018F4B9 /* Debug */,
+				A4C692F21F1160570018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C692F31F1160570018F4B9 /* Build configuration list for PBXNativeTarget "SearchingTechniques-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C692F41F1160570018F4B9 /* Debug */,
+				A4C692F51F1160570018F4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

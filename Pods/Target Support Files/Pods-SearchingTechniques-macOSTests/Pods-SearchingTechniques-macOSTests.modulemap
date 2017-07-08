@@ -1,0 +1,6 @@
+framework module Pods_SearchingTechniques_macOSTests {
+  umbrella header "Pods-SearchingTechniques-macOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

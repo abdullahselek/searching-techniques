@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'SearchingTechniques'
-    s.version               = '0.1'
+    s.version               = '0.2'
     s.summary               = 'Different searching techniques for iOS'
     s.homepage              = 'https://github.com/abdullahselek/searching-techniques'
     s.license               = {
@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
         :tag => s.version.to_s
     }
     s.ios.deployment_target = '9.0'
-    s.source_files          = 'SearchingTechniques/*.{h,m}'
+    s.osx.deployment_target = '10.10'
+    s.source_files          = 'Source/*.{h,m}'
     s.requires_arc          = true
 
 end

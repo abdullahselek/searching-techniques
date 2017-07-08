@@ -27,7 +27,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'SearchingTechniques', '~> 0.1'
+    pod 'SearchingTechniques', '~> 0.2'
 end
 ```
 Then, run the following command:
@@ -48,7 +48,7 @@ brew install carthage
 To integrate SearchingTechniques into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/searching-techniques" ~> 0.1
+github "abdullahselek/searching-techniques" ~> 0.2
 ```
 
 Run carthage update to build the framework and drag the built SearchingTechniques.framework into your Xcode project.

@@ -504,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 008957DFD72E8ED388214E7E /* Pods-SearchingTechniquesTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SearchingTechniquesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SearchingTechniquesTests;
@@ -515,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABB422B62D88739CD3071C75 /* Pods-SearchingTechniquesTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SearchingTechniquesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SearchingTechniquesTests;

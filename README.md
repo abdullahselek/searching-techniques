@@ -9,7 +9,7 @@ Different searching techniques with Objective-C.
 
 ## Requirements
 
-iOS 9.0+
+iOS 9.0+ / macOS 10.10+
 
 ## Installation
 

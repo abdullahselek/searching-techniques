@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		4122A9D22EF6B0EEAF56F5F8 /* Pods_SearchingTechniques_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */; };
 		4539C1F784849A224AE72238 /* Pods_SearchingTechniques_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */; };
+		53BEDBE5B514FD658DC71A87 /* Pods_SearchingTechniques_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA4F98753B235B7D39D7D3 /* Pods_SearchingTechniques_tvOSTests.framework */; };
 		54C67A098EC3AB3415C4C91C /* Pods_SearchingTechniques_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */; };
+		85B1EE6CBE0F350BDAEB18C9 /* Pods_SearchingTechniques_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6690018860AE29E2882787E2 /* Pods_SearchingTechniques_tvOS.framework */; };
 		A3CC4A9F3013F75A862FA226 /* Pods_SearchingTechniques_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */; };
-		A45E98F51F12A8FF00CE18D1 /* SearchingTechniques-tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */; };
+		A45E98F51F12A8FF00CE18D1 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques.framework */; };
 		A45E98FC1F12A8FF00CE18D1 /* SearchingTechniques-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45E99031F12A96000CE18D1 /* STBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929D1F1149290018F4B9 /* STBinarySearch.m */; };
 		A45E99041F12A96000CE18D1 /* STInterpolationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929F1F1149290018F4B9 /* STInterpolationSearch.m */; };
@@ -23,6 +25,7 @@
 		A45E990A1F12A98400CE18D1 /* STBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C81F114AB50018F4B9 /* STBinarySearchTests.m */; };
 		A45E990B1F12A98400CE18D1 /* STInterpolationSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C91F114AB50018F4B9 /* STInterpolationSearchTests.m */; };
 		A45E990C1F12A98400CE18D1 /* STLinearSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692CA1F114AB50018F4B9 /* STLinearSearchTests.m */; };
+		A45E990E1F12A9CF00CE18D1 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45E990D1F12A9CF00CE18D1 /* Info-tvOS.plist */; };
 		A4C692B01F1149520018F4B9 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */; };
 		A4C692B71F1149520018F4B9 /* SearchingTecniques-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A91F1149520018F4B9 /* SearchingTecniques-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692CE1F114AF70018F4B9 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,14 +84,17 @@
 		3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A97D40EDCA78FC523BDB34E /* Pods-SearchingTechniques-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOS/Pods-SearchingTechniques-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5FB4A51C35351E3F2B104876 /* Pods-SearchingTechniques-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOSTests/Pods-SearchingTechniques-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6690018860AE29E2882787E2 /* Pods_SearchingTechniques_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702D61BFA50317EA8F66F52B /* Pods-SearchingTechniques-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOS/Pods-SearchingTechniques-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		788F5B08BFED266EEE74DFA6 /* Pods_SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA4F98753B235B7D39D7D3 /* Pods_SearchingTechniques_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA39DEC8465A1D733E0FDC /* Pods_SearchingTechniquesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniquesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SearchingTechniques-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808CD3A8ACD231EFB5453C6D /* Pods-SearchingTechniques-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-tvOSTests/Pods-SearchingTechniques-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingTechniques-tvOS.h"; sourceTree = "<group>"; };
-		A45E98EF1F12A8FE00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingTechniques-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45E98FB1F12A8FF00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45E990D1F12A9CF00CE18D1 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Source/Info-tvOS.plist"; sourceTree = "<group>"; };
 		A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchingTechniques.h; path = Source/SearchingTechniques.h; sourceTree = "<group>"; };
 		A4C6929C1F1149290018F4B9 /* STBinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STBinarySearch.h; path = Source/STBinarySearch.h; sourceTree = "<group>"; };
 		A4C6929D1F1149290018F4B9 /* STBinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = STBinarySearch.m; path = Source/STBinarySearch.m; sourceTree = "<group>"; };
@@ -111,11 +117,14 @@
 		A4C692FD1F1161490018F4B9 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Source/Info-macOS.plist"; sourceTree = "<group>"; };
 		ABB422B62D88739CD3071C75 /* Pods-SearchingTechniquesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniquesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniquesTests/Pods-SearchingTechniquesTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF98847DBA46048E2A8F613 /* Pods-SearchingTechniques.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques/Pods-SearchingTechniques.release.xcconfig"; sourceTree = "<group>"; };
+		B415CDB7009B376E533E5AD5 /* Pods-SearchingTechniques-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-tvOSTests/Pods-SearchingTechniques-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		C0F96E4A1504CB91FC89AC99 /* Pods-SearchingTechniques-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOSTests/Pods-SearchingTechniques-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1EF09263DC22FA572AC53E4 /* Pods-SearchingTechniques-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOS/Pods-SearchingTechniques-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA0FFDF356725B7D401D3CDB /* Pods-SearchingTechniques-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-tvOS/Pods-SearchingTechniques-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-macOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-macOSTests/Pods-SearchingTechniques-macOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1E6B9B416B279F24D0A90E2 /* Pods-SearchingTechniques-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-tvOS/Pods-SearchingTechniques-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B1EE6CBE0F350BDAEB18C9 /* Pods_SearchingTechniques_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45E98F51F12A8FF00CE18D1 /* SearchingTechniques-tvOS.framework in Frameworks */,
+				A45E98F51F12A8FF00CE18D1 /* SearchingTechniques.framework in Frameworks */,
+				53BEDBE5B514FD658DC71A87 /* Pods_SearchingTechniques_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +192,8 @@
 				F3174DE8364814D3AD54A9BB /* Pods_SearchingTechniques_iOSTests.framework */,
 				2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */,
 				EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */,
+				6690018860AE29E2882787E2 /* Pods_SearchingTechniques_tvOS.framework */,
+				7CAA4F98753B235B7D39D7D3 /* Pods_SearchingTechniques_tvOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,6 +213,10 @@
 				245327840A02774B84439082 /* Pods-SearchingTechniques-macOS.release.xcconfig */,
 				C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */,
 				F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */,
+				F1E6B9B416B279F24D0A90E2 /* Pods-SearchingTechniques-tvOS.debug.xcconfig */,
+				CA0FFDF356725B7D401D3CDB /* Pods-SearchingTechniques-tvOS.release.xcconfig */,
+				808CD3A8ACD231EFB5453C6D /* Pods-SearchingTechniques-tvOSTests.debug.xcconfig */,
+				B415CDB7009B376E533E5AD5 /* Pods-SearchingTechniques-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -208,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */,
-				A45E98EF1F12A8FE00CE18D1 /* Info.plist */,
 			);
 			path = "SearchingTechniques-tvOS";
 			sourceTree = "<group>";
@@ -245,7 +261,7 @@
 				A4C692AF1F1149520018F4B9 /* SearchingTechniques-iOSTests.xctest */,
 				A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */,
 				A4C692E71F1160570018F4B9 /* SearchingTechniques-macOSTests.xctest */,
-				A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */,
+				A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques.framework */,
 				A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */,
 			);
 			name = Products;
@@ -254,6 +270,7 @@
 		A4C6929A1F1149090018F4B9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A45E990D1F12A9CF00CE18D1 /* Info-tvOS.plist */,
 				A4C692FD1F1161490018F4B9 /* Info-macOS.plist */,
 				A4C692C51F114A380018F4B9 /* Info-iOS.plist */,
 				A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */,
@@ -355,10 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45E99011F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOS" */;
 			buildPhases = (
+				BF827FE477BDE113929615B6 /* [CP] Check Pods Manifest.lock */,
 				A45E98E71F12A8FE00CE18D1 /* Sources */,
 				A45E98E81F12A8FE00CE18D1 /* Frameworks */,
 				A45E98E91F12A8FE00CE18D1 /* Headers */,
 				A45E98EA1F12A8FE00CE18D1 /* Resources */,
+				C610F4B313FAADF7A71A7D8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -366,16 +385,19 @@
 			);
 			name = "SearchingTechniques-tvOS";
 			productName = "SearchingTechniques-tvOS";
-			productReference = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */;
+			productReference = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A45E98F31F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45E99021F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOSTests" */;
 			buildPhases = (
+				BB5DFDCF768757E0D9647219 /* [CP] Check Pods Manifest.lock */,
 				A45E98F01F12A8FF00CE18D1 /* Sources */,
 				A45E98F11F12A8FF00CE18D1 /* Frameworks */,
 				A45E98F21F12A8FF00CE18D1 /* Resources */,
+				B725022B1E7D29F710A7681D /* [CP] Embed Pods Frameworks */,
+				9A6D8B3B0A037CC421FBA9F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -545,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45E990E1F12A9CF00CE18D1 /* Info-tvOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +685,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9A6D8B3B0A037CC421FBA9F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-tvOSTests/Pods-SearchingTechniques-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A5C7EA25480CCDC7C6E0A93C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,6 +713,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-macOS/Pods-SearchingTechniques-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B725022B1E7D29F710A7681D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-tvOSTests/Pods-SearchingTechniques-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5DFDCF768757E0D9647219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF827FE477BDE113929615B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C610F4B313FAADF7A71A7D8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchingTechniques-tvOS/Pods-SearchingTechniques-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D7820AD5459DD3C594021B22 /* [CP] Copy Pods Resources */ = {
@@ -808,17 +906,18 @@
 /* Begin XCBuildConfiguration section */
 		A45E98FD1F12A8FF00CE18D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E6B9B416B279F24D0A90E2 /* Pods-SearchingTechniques-tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SearchingTechniques-tvOS/Info.plist";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchingTechniques;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -828,17 +927,18 @@
 		};
 		A45E98FE1F12A8FF00CE18D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0FFDF356725B7D401D3CDB /* Pods-SearchingTechniques-tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SearchingTechniques-tvOS/Info.plist";
+				INFOPLIST_FILE = "Source/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchingTechniques;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -848,6 +948,7 @@
 		};
 		A45E98FF1F12A8FF00CE18D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808CD3A8ACD231EFB5453C6D /* Pods-SearchingTechniques-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -860,6 +961,7 @@
 		};
 		A45E99001F12A8FF00CE18D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B415CDB7009B376E533E5AD5 /* Pods-SearchingTechniques-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

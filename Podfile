@@ -27,3 +27,13 @@ target 'SearchingTechniques-macOS' do
     	testing_pods
   	end
 end
+
+target 'SearchingTechniques-tvOS' do
+  platform :tvos, '9.0'
+  project 'SearchingTechniques.xcodeproj'
+
+    target 'SearchingTechniques-tvOSTests' do
+      inherit! :search_paths
+      testing_pods
+    end
+end

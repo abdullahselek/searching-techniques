@@ -11,6 +11,9 @@
 		4539C1F784849A224AE72238 /* Pods_SearchingTechniques_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822141AC8A29EDF42B9AC38 /* Pods_SearchingTechniques_macOS.framework */; };
 		54C67A098EC3AB3415C4C91C /* Pods_SearchingTechniques_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */; };
 		A3CC4A9F3013F75A862FA226 /* Pods_SearchingTechniques_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */; };
+		A45E98F51F12A8FF00CE18D1 /* SearchingTechniques-tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */; };
+		A45E98FA1F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */; };
+		A45E98FC1F12A8FF00CE18D1 /* SearchingTechniques-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692B01F1149520018F4B9 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */; };
 		A4C692B71F1149520018F4B9 /* SearchingTecniques-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A91F1149520018F4B9 /* SearchingTecniques-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692CE1F114AF70018F4B9 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +41,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A45E98F61F12A8FF00CE18D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A485CE7A1F09352700AA9E67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45E98EB1F12A8FE00CE18D1;
+			remoteInfo = "SearchingTechniques-tvOS";
+		};
 		A4C692B11F1149520018F4B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A485CE7A1F09352700AA9E67 /* Project object */;
@@ -65,6 +75,12 @@
 		702D61BFA50317EA8F66F52B /* Pods-SearchingTechniques-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchingTechniques-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchingTechniques-iOS/Pods-SearchingTechniques-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		788F5B08BFED266EEE74DFA6 /* Pods_SearchingTechniques.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniques.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA39DEC8465A1D733E0FDC /* Pods_SearchingTechniquesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchingTechniquesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SearchingTechniques-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingTechniques-tvOS.h"; sourceTree = "<group>"; };
+		A45E98EF1F12A8FE00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingTechniques-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchingTechniques_tvOSTests.m; sourceTree = "<group>"; };
+		A45E98FB1F12A8FF00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchingTechniques.h; path = Source/SearchingTechniques.h; sourceTree = "<group>"; };
 		A4C6929C1F1149290018F4B9 /* STBinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STBinarySearch.h; path = Source/STBinarySearch.h; sourceTree = "<group>"; };
 		A4C6929D1F1149290018F4B9 /* STBinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = STBinarySearch.m; path = Source/STBinarySearch.m; sourceTree = "<group>"; };
@@ -96,6 +112,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A45E98E81F12A8FE00CE18D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E98F11F12A8FF00CE18D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45E98F51F12A8FF00CE18D1 /* SearchingTechniques-tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4C692A31F1149520018F4B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,6 +196,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A45E98ED1F12A8FE00CE18D1 /* SearchingTechniques-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */,
+				A45E98EF1F12A8FE00CE18D1 /* Info.plist */,
+			);
+			path = "SearchingTechniques-tvOS";
+			sourceTree = "<group>";
+		};
+		A45E98F81F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */,
+				A45E98FB1F12A8FF00CE18D1 /* Info.plist */,
+			);
+			path = "SearchingTechniques-tvOSTests";
+			sourceTree = "<group>";
+		};
 		A485CE791F09352700AA9E67 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +223,8 @@
 				A4C692B31F1149520018F4B9 /* SearchingTecniques-iOSTests */,
 				A4C692E01F1160570018F4B9 /* SearchingTechniques-macOS */,
 				A4C692EB1F1160570018F4B9 /* SearchingTechniques-macOSTests */,
+				A45E98ED1F12A8FE00CE18D1 /* SearchingTechniques-tvOS */,
+				A45E98F81F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */,
 				A485CE841F09352800AA9E67 /* Products */,
 				87C486EB6EDFB3F480DFE428 /* Pods */,
 				21842E3C7815553073906560 /* Frameworks */,
@@ -187,6 +238,8 @@
 				A4C692AF1F1149520018F4B9 /* SearchingTechniques-iOSTests.xctest */,
 				A4C692DF1F1160570018F4B9 /* SearchingTechniques.framework */,
 				A4C692E71F1160570018F4B9 /* SearchingTechniques-macOSTests.xctest */,
+				A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */,
+				A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +305,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A45E98E91F12A8FE00CE18D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45E98FC1F12A8FF00CE18D1 /* SearchingTechniques-tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4C692A41F1149520018F4B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +340,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A45E98EB1F12A8FE00CE18D1 /* SearchingTechniques-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45E99011F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOS" */;
+			buildPhases = (
+				A45E98E71F12A8FE00CE18D1 /* Sources */,
+				A45E98E81F12A8FE00CE18D1 /* Frameworks */,
+				A45E98E91F12A8FE00CE18D1 /* Headers */,
+				A45E98EA1F12A8FE00CE18D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchingTechniques-tvOS";
+			productName = "SearchingTechniques-tvOS";
+			productReference = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A45E98F31F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45E99021F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOSTests" */;
+			buildPhases = (
+				A45E98F01F12A8FF00CE18D1 /* Sources */,
+				A45E98F11F12A8FF00CE18D1 /* Frameworks */,
+				A45E98F21F12A8FF00CE18D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45E98F71F12A8FF00CE18D1 /* PBXTargetDependency */,
+			);
+			name = "SearchingTechniques-tvOSTests";
+			productName = "SearchingTechniques-tvOSTests";
+			productReference = A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A4C692A61F1149520018F4B9 /* SearchingTechniques-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C692B81F1149520018F4B9 /* Build configuration list for PBXNativeTarget "SearchingTechniques-iOS" */;
@@ -370,6 +467,14 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Abdullah Selek";
 				TargetAttributes = {
+					A45E98EB1F12A8FE00CE18D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A45E98F31F12A8FF00CE18D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					A4C692A61F1149520018F4B9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -404,11 +509,27 @@
 				A4C692AE1F1149520018F4B9 /* SearchingTechniques-iOSTests */,
 				A4C692DE1F1160570018F4B9 /* SearchingTechniques-macOS */,
 				A4C692E61F1160570018F4B9 /* SearchingTechniques-macOSTests */,
+				A45E98EB1F12A8FE00CE18D1 /* SearchingTechniques-tvOS */,
+				A45E98F31F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A45E98EA1F12A8FE00CE18D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E98F21F12A8FF00CE18D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4C692A51F1149520018F4B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,6 +714,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A45E98E71F12A8FE00CE18D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E98F01F12A8FF00CE18D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45E98FA1F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4C692A21F1149520018F4B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -636,6 +772,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A45E98F71F12A8FF00CE18D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45E98EB1F12A8FE00CE18D1 /* SearchingTechniques-tvOS */;
+			targetProxy = A45E98F61F12A8FF00CE18D1 /* PBXContainerItemProxy */;
+		};
 		A4C692B21F1149520018F4B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A4C692A61F1149520018F4B9 /* SearchingTechniques-iOS */;
@@ -649,6 +790,70 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A45E98FD1F12A8FF00CE18D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SearchingTechniques-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A45E98FE1F12A8FF00CE18D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SearchingTechniques-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A45E98FF1F12A8FF00CE18D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A45E99001F12A8FF00CE18D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 		A485CE951F09352800AA9E67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -890,6 +1095,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A45E99011F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45E98FD1F12A8FF00CE18D1 /* Debug */,
+				A45E98FE1F12A8FF00CE18D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A45E99021F12A8FF00CE18D1 /* Build configuration list for PBXNativeTarget "SearchingTechniques-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45E98FF1F12A8FF00CE18D1 /* Debug */,
+				A45E99001F12A8FF00CE18D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A485CE7D1F09352700AA9E67 /* Build configuration list for PBXProject "SearchingTechniques" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

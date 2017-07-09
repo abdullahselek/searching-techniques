@@ -12,8 +12,17 @@
 		54C67A098EC3AB3415C4C91C /* Pods_SearchingTechniques_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3784035FA504E679B60A273F /* Pods_SearchingTechniques_iOS.framework */; };
 		A3CC4A9F3013F75A862FA226 /* Pods_SearchingTechniques_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03B8EB869AB90034DB6287 /* Pods_SearchingTechniques_macOSTests.framework */; };
 		A45E98F51F12A8FF00CE18D1 /* SearchingTechniques-tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45E98EC1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.framework */; };
-		A45E98FA1F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */; };
 		A45E98FC1F12A8FF00CE18D1 /* SearchingTechniques-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E99031F12A96000CE18D1 /* STBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929D1F1149290018F4B9 /* STBinarySearch.m */; };
+		A45E99041F12A96000CE18D1 /* STInterpolationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6929F1F1149290018F4B9 /* STInterpolationSearch.m */; };
+		A45E99051F12A96000CE18D1 /* STLinearSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692A11F1149290018F4B9 /* STLinearSearch.m */; };
+		A45E99061F12A96C00CE18D1 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E99071F12A96C00CE18D1 /* STBinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929C1F1149290018F4B9 /* STBinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E99081F12A96C00CE18D1 /* STInterpolationSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929E1F1149290018F4B9 /* STInterpolationSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E99091F12A96C00CE18D1 /* STLinearSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A01F1149290018F4B9 /* STLinearSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E990A1F12A98400CE18D1 /* STBinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C81F114AB50018F4B9 /* STBinarySearchTests.m */; };
+		A45E990B1F12A98400CE18D1 /* STInterpolationSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692C91F114AB50018F4B9 /* STInterpolationSearchTests.m */; };
+		A45E990C1F12A98400CE18D1 /* STLinearSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C692CA1F114AB50018F4B9 /* STLinearSearchTests.m */; };
 		A4C692B01F1149520018F4B9 /* SearchingTechniques.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C692A71F1149520018F4B9 /* SearchingTechniques.framework */; };
 		A4C692B71F1149520018F4B9 /* SearchingTecniques-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C692A91F1149520018F4B9 /* SearchingTecniques-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C692CE1F114AF70018F4B9 /* SearchingTechniques.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,7 +88,6 @@
 		A45E98EE1F12A8FE00CE18D1 /* SearchingTechniques-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchingTechniques-tvOS.h"; sourceTree = "<group>"; };
 		A45E98EF1F12A8FE00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45E98F41F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchingTechniques-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchingTechniques_tvOSTests.m; sourceTree = "<group>"; };
 		A45E98FB1F12A8FF00CE18D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C6929B1F1149290018F4B9 /* SearchingTechniques.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchingTechniques.h; path = Source/SearchingTechniques.h; sourceTree = "<group>"; };
 		A4C6929C1F1149290018F4B9 /* STBinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STBinarySearch.h; path = Source/STBinarySearch.h; sourceTree = "<group>"; };
@@ -208,7 +216,6 @@
 		A45E98F81F12A8FF00CE18D1 /* SearchingTechniques-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A45E98F91F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m */,
 				A45E98FB1F12A8FF00CE18D1 /* Info.plist */,
 			);
 			path = "SearchingTechniques-tvOSTests";
@@ -309,6 +316,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45E99061F12A96C00CE18D1 /* SearchingTechniques.h in Headers */,
+				A45E99071F12A96C00CE18D1 /* STBinarySearch.h in Headers */,
+				A45E99081F12A96C00CE18D1 /* STInterpolationSearch.h in Headers */,
+				A45E99091F12A96C00CE18D1 /* STLinearSearch.h in Headers */,
 				A45E98FC1F12A8FF00CE18D1 /* SearchingTechniques-tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,6 +729,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45E99031F12A96000CE18D1 /* STBinarySearch.m in Sources */,
+				A45E99041F12A96000CE18D1 /* STInterpolationSearch.m in Sources */,
+				A45E99051F12A96000CE18D1 /* STLinearSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,7 +739,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45E98FA1F12A8FF00CE18D1 /* SearchingTechniques_tvOSTests.m in Sources */,
+				A45E990A1F12A98400CE18D1 /* STBinarySearchTests.m in Sources */,
+				A45E990B1F12A98400CE18D1 /* STInterpolationSearchTests.m in Sources */,
+				A45E990C1F12A98400CE18D1 /* STLinearSearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

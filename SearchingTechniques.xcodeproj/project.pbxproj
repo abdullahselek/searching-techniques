@@ -1029,6 +1029,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 808CD3A8ACD231EFB5453C6D /* Pods-SearchingTechniques-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOSTests";
@@ -1042,6 +1043,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B415CDB7009B376E533E5AD5 /* Pods-SearchingTechniques-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SearchingTechniques-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SearchingTechniques-tvOSTests";
@@ -1237,6 +1239,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0F96E4A1504CB91FC89AC99 /* Pods-SearchingTechniques-iOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SearchingTecniques-iOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1249,6 +1252,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FB4A51C35351E3F2B104876 /* Pods-SearchingTechniques-iOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SearchingTecniques-iOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1305,6 +1309,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3167DFD886C2A5D5D4FBA57 /* Pods-SearchingTechniques-macOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "SearchingTechniques-macOSTests/Info.plist";
@@ -1320,6 +1325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1821861143AEFEC89565D5A /* Pods-SearchingTechniques-macOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "SearchingTechniques-macOSTests/Info.plist";

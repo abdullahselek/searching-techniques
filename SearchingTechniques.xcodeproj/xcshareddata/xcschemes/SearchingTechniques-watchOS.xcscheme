@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4685FE01F1567460069BAA8"
-               BuildableName = "SearchingTechniques-watchOS.framework"
+               BuildableName = "SearchingTechniques.framework"
                BlueprintName = "SearchingTechniques-watchOS"
                ReferencedContainer = "container:SearchingTechniques.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4685FE01F1567460069BAA8"
-            BuildableName = "SearchingTechniques-watchOS.framework"
+            BuildableName = "SearchingTechniques.framework"
             BlueprintName = "SearchingTechniques-watchOS"
             ReferencedContainer = "container:SearchingTechniques.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4685FE01F1567460069BAA8"
-            BuildableName = "SearchingTechniques-watchOS.framework"
+            BuildableName = "SearchingTechniques.framework"
             BlueprintName = "SearchingTechniques-watchOS"
             ReferencedContainer = "container:SearchingTechniques.xcodeproj">
          </BuildableReference>
